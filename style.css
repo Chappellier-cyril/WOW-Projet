@@ -8,7 +8,7 @@ body {
     font-family: "LifeCraft";
     letter-spacing: 2px;
     margin: 0;
-    background-color: black;
+    background: linear-gradient(90deg, rgb(64 49 1) 0%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 30%, rgb(27 22 4) 50%, rgba(0,0,0,1) 70%, rgba(0,0,0,1) 85%, rgb(58 43 0) 100%);
 }
 
 .logo {
@@ -30,7 +30,7 @@ header {
 
 .titre {
     text-align: center;
-    color: rgb(230, 178, 7);
+    color: #e6b207;
     font-family: "LifeCraft";
     letter-spacing: 5px;
     font-size: 1.5em;
