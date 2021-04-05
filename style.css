@@ -26,6 +26,7 @@ header {
     top: 0;
     background-color: black;
     overflow: auto;
+    background: linear-gradient(90deg, rgb(64 49 1) 0%, rgba(0,0,0,1) 15%, rgba(0,0,0,1) 30%, rgb(27 22 4) 50%, rgba(0,0,0,1) 70%, rgba(0,0,0,1) 85%, rgb(58 43 0) 100%);
 }
 
 .titre {
