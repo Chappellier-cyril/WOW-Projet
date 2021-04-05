@@ -1,0 +1,99 @@
+html {
+    padding: 0;
+}
+
+body {
+    
+    color: white;
+    font-family: "LifeCraft";
+    letter-spacing: 2px;
+    margin: 0;
+    background-color: black;
+}
+
+.logo {
+    text-align: center;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+    background-image: url(https://i.pinimg.com/originals/59/46/07/59460761aef55634c7f5c22b2ed2ac1c.jpg)
+
+}
+
+header {
+    position: sticky;
+    z-index: 4;
+    top: 0;
+    background-color: black;
+    overflow: auto;
+}
+
+.titre {
+    text-align: center;
+    color: rgb(230, 178, 7);
+    font-family: "LifeCraft";
+    letter-spacing: 5px;
+    font-size: 1.5em;
+    position: relative;
+
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    margin: auto;
+    }
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    color:white;
+}
+
+.personnage  {
+    display: flex;
+    flex-direction: column;
+    border: solid rgb(230, 178, 7);
+    width: 250px;
+    order: 3;
+    padding: 16px;
+    margin: 100px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: all 0.7s;
+    z-index: -1;
+    font-size: 1.5em;
+    
+}
+
+.personnage:hover {
+    background-color: rgb(230, 178, 7);
+    transform: scale(1.1);
+    transform-origin: 100% 0;
+    box-shadow: 0 0 20px rgb(230, 178, 7);
+    
+}
+
+.photo {
+    width: 240px;
+    height: 350px;
+
+}
+
+.Signature {
+    background-color: rgb(230, 178, 7);
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    margin-top: 50px;
+}
+
+@font-face {
+            font-family: "LifeCraft";
+            src: url("LifeCraft_Font.ttf");
+}
